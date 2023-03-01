@@ -12,7 +12,7 @@ export default function Main() {
             <div className='pb-1 font-semibold'>
               Welcome back Isabella!
             </div>
-            <div>Check out today's Weather information</div>
+            <div >Check out today's Weather information</div>
           </div>
           <div className='flex items-center'>
             <MoreHoriz />
