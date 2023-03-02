@@ -1,7 +1,9 @@
-import { AccountBox, MoreHoriz } from '@mui/icons-material'
+import {  KeyboardArrowDown,MoreHoriz,KeyboardArrowRight
+} from '@mui/icons-material'
 import React from 'react'
 import AreaCharts from './Area'
 import Cards from './Cards'
+import profile from '../assets/7.jpg'
 
 export default function Main() {
   return (
@@ -14,16 +16,18 @@ export default function Main() {
             </div>
             <div >Check out today's Weather information</div>
           </div>
-          <div className='flex items-center'>
+          <div className='flex items-center '>
             <MoreHoriz />
-            <AccountBox sx={{ color: "orange" ,fontSize:35,ml:2}}/>
+            <img className=' object-cover rounded-full h-10 w-11 flex items-center justify-center rounded-2xl mx-6'  src={profile} alt="" />
+           
           </div>
           
         </div>
         <div className='mt-6'>
           <div className='bg-white rounded-[40px] mx-auto h-[30vh] w-[94%]'>
             <div className='px-8 py-4 flex items-center justify-between'><div>Upcoming hours</div>
-            <div className='bg-secondary cursor-pointer py-1 px-3 rounded-md'>Next days</div>
+            <div className='bg-secondary cursor-pointer py-1 px-3 rounded-md '>Rain Precipitation<KeyboardArrowDown/> </div>
+            <div className='bg-secondary cursor-pointer py-1 px-3 rounded-md'>Next days<KeyboardArrowRight/></div>
             </div> 
             <AreaCharts /></div>
         </div>

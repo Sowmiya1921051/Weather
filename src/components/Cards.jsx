@@ -1,4 +1,4 @@
-import { Hub, HubOutlined } from "@mui/icons-material";
+import { CloudOutlined,HubOutlined, WbSunnyOutlined,DeviceThermostat,ThunderstormOutlined,NightlightOutlined } from "@mui/icons-material";
 import React from "react";
 
 export default function Cards() {
@@ -8,7 +8,119 @@ export default function Cards() {
         <div className="flex   items-center justify-between ">
           <span>Humidity</span>
           <span className="bg-primary py-[4px] px-[8px] rounded-lg">
-            <HubOutlined
+            <CloudOutlined
+              sx={{ fontSize: 15, bgcolor: "#5C9CE5", color: "whitesmoke" }}
+            />
+          </span>
+        </div>
+        <div className="text-center py-2">
+          <b className="text-lg">82% </b>bad
+        </div>
+        <div className="flex items-center justify-between px-2 py-[4px] text-black/40">
+          <div className=" flex flex-col">
+            <span>good</span>
+            <div className="w-[70px] py-1 rounded bg-primary"></div>
+          </div>
+          <div className=" flex flex-col">
+            <span>normal</span>
+            <div className="w-[70px] py-1 rounded bg-primary "></div>
+          </div>
+          <div className=" flex flex-col">
+            <span>bad</span>
+            <div className="w-[30px] py-1  rounded bg-primary"></div>
+          </div>
+         
+        </div>
+      </div>
+      <div className="text-sm  cursor-pointer w-[90%] px-8 bg-white py-3 rounded-3xl h-[140px]">
+        <div className="flex   items-center justify-between ">
+          <span>Humidity</span>
+          <span className="bg-primary py-[4px] px-[8px] rounded-lg">
+            <NightlightOutlined
+              sx={{ fontSize: 15, bgcolor: "#5C9CE5", color: "whitesmoke" }}
+            />
+          </span>
+        </div>
+        <div className="text-center py-2">
+          <b className="text-lg">45% </b>bad
+        </div>
+        <div className="flex items-center justify-between px-2 py-[4px] text-black/40">
+          <div className=" flex flex-col">
+            <span>good</span>
+            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
+          </div>
+          <div className=" flex flex-col">
+            <span>normal</span>
+            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
+          </div>
+          <div className=" flex flex-col">
+            <span>bad</span>
+            <div className="w-[70px] py-1 rounded bg-primary"></div>
+          </div>
+         
+        </div>
+      </div>
+      <div className="text-sm  cursor-pointer w-[90%] px-8 bg-white py-3 rounded-3xl h-[140px]">
+        <div className="flex   items-center justify-between ">
+          <span>Humidity</span>
+          <span className="bg-primary py-[4px] px-[8px] rounded-lg">
+            <ThunderstormOutlined
+              sx={{ fontSize: 15, bgcolor: "#5C9CE5", color: "whitesmoke" }}
+            />
+          </span>
+        </div>
+        <div className="text-center py-2">
+          <b className="text-lg">92% </b>good
+        </div>
+        <div className="flex items-center justify-between px-2 py-[4px] text-black/40">
+          <div className=" flex flex-col">
+            <span>good</span>
+            <div className="w-[70px] py-1 rounded bg-primary"></div>
+          </div>
+          <div className=" flex flex-col">
+            <span>normal</span>
+            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
+          </div>
+          <div className=" flex flex-col">
+            <span>bad</span>
+            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
+          </div>
+         
+        </div>
+      </div>
+      <div className="text-sm  cursor-pointer w-[90%] px-8 bg-white py-3 rounded-3xl h-[140px]">
+        <div className="flex   items-center justify-between ">
+          <span>Humidity</span>
+          <span className="bg-primary py-[4px] px-[8px] rounded-lg">
+            <WbSunnyOutlined
+              sx={{ fontSize: 15, bgcolor: "#5C9CE5", color: "whitesmoke" }}
+            />
+          </span>
+        </div>
+        <div className="text-center py-2">
+          <b className="text-lg">75% </b>normal
+        </div>
+        <div className="flex items-center justify-between px-2 py-[4px] text-black/40">
+          <div className=" flex flex-col">
+            <span>good</span>
+            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
+          </div>
+          <div className=" flex flex-col">
+            <span>normal</span>
+            <div className="w-[70px] py-1 rounded bg-primary"></div>
+          </div>
+          <div className=" flex flex-col">
+            <span>bad</span>
+            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
+          </div>
+         
+        </div>
+      </div>
+      <div className="text-sm  cursor-pointer w-[90%] px-8 bg-white py-3 rounded-3xl h-[140px]">
+        <div className="flex   items-center justify-between ">
+          <span>Humidity</span>
+          <span className="bg-primary py-[4px] px-[8px] rounded-lg">
+            <DeviceThermostat
               sx={{ fontSize: 15, bgcolor: "#5C9CE5", color: "whitesmoke" }}
             />
           </span>
@@ -42,128 +154,16 @@ export default function Cards() {
           </span>
         </div>
         <div className="text-center py-2">
-          <b className="text-lg">82% </b>bad
+          <b className="text-lg">68% </b>normal
         </div>
         <div className="flex items-center justify-between px-2 py-[4px] text-black/40">
           <div className=" flex flex-col">
             <span>good</span>
-            <div className="w-[70px] py-1 rounded bg-primary"></div>
+            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
           </div>
           <div className=" flex flex-col">
             <span>normal</span>
-            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
-          </div>
-          <div className=" flex flex-col">
-            <span>bad</span>
-            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
-          </div>
-         
-        </div>
-      </div>
-      <div className="text-sm  cursor-pointer w-[90%] px-8 bg-white py-3 rounded-3xl h-[140px]">
-        <div className="flex   items-center justify-between ">
-          <span>Humidity</span>
-          <span className="bg-primary py-[4px] px-[8px] rounded-lg">
-            <HubOutlined
-              sx={{ fontSize: 15, bgcolor: "#5C9CE5", color: "whitesmoke" }}
-            />
-          </span>
-        </div>
-        <div className="text-center py-2">
-          <b className="text-lg">82% </b>bad
-        </div>
-        <div className="flex items-center justify-between px-2 py-[4px] text-black/40">
-          <div className=" flex flex-col">
-            <span>good</span>
             <div className="w-[70px] py-1 rounded bg-primary"></div>
-          </div>
-          <div className=" flex flex-col">
-            <span>normal</span>
-            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
-          </div>
-          <div className=" flex flex-col">
-            <span>bad</span>
-            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
-          </div>
-         
-        </div>
-      </div>
-      <div className="text-sm  cursor-pointer w-[90%] px-8 bg-white py-3 rounded-3xl h-[140px]">
-        <div className="flex   items-center justify-between ">
-          <span>Humidity</span>
-          <span className="bg-primary py-[4px] px-[8px] rounded-lg">
-            <HubOutlined
-              sx={{ fontSize: 15, bgcolor: "#5C9CE5", color: "whitesmoke" }}
-            />
-          </span>
-        </div>
-        <div className="text-center py-2">
-          <b className="text-lg">82% </b>bad
-        </div>
-        <div className="flex items-center justify-between px-2 py-[4px] text-black/40">
-          <div className=" flex flex-col">
-            <span>good</span>
-            <div className="w-[70px] py-1 rounded bg-primary"></div>
-          </div>
-          <div className=" flex flex-col">
-            <span>normal</span>
-            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
-          </div>
-          <div className=" flex flex-col">
-            <span>bad</span>
-            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
-          </div>
-         
-        </div>
-      </div>
-      <div className="text-sm  cursor-pointer w-[90%] px-8 bg-white py-3 rounded-3xl h-[140px]">
-        <div className="flex   items-center justify-between ">
-          <span>Humidity</span>
-          <span className="bg-primary py-[4px] px-[8px] rounded-lg">
-            <HubOutlined
-              sx={{ fontSize: 15, bgcolor: "#5C9CE5", color: "whitesmoke" }}
-            />
-          </span>
-        </div>
-        <div className="text-center py-2">
-          <b className="text-lg">82% </b>bad
-        </div>
-        <div className="flex items-center justify-between px-2 py-[4px] text-black/40">
-          <div className=" flex flex-col">
-            <span>good</span>
-            <div className="w-[70px] py-1 rounded bg-primary"></div>
-          </div>
-          <div className=" flex flex-col">
-            <span>normal</span>
-            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
-          </div>
-          <div className=" flex flex-col">
-            <span>bad</span>
-            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
-          </div>
-         
-        </div>
-      </div>
-      <div className="text-sm  cursor-pointer w-[90%] px-8 bg-white py-3 rounded-3xl h-[140px]">
-        <div className="flex   items-center justify-between ">
-          <span>Humidity</span>
-          <span className="bg-primary py-[4px] px-[8px] rounded-lg">
-            <HubOutlined
-              sx={{ fontSize: 15, bgcolor: "#5C9CE5", color: "whitesmoke" }}
-            />
-          </span>
-        </div>
-        <div className="text-center py-2">
-          <b className="text-lg">82% </b>bad
-        </div>
-        <div className="flex items-center justify-between px-2 py-[4px] text-black/40">
-          <div className=" flex flex-col">
-            <span>good</span>
-            <div className="w-[70px] py-1 rounded bg-primary"></div>
-          </div>
-          <div className=" flex flex-col">
-            <span>normal</span>
-            <div className="w-[70px] py-1 rounded bg-[#121212]/10"></div>
           </div>
           <div className=" flex flex-col">
             <span>bad</span>
