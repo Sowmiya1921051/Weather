@@ -1,4 +1,4 @@
-import { AddBox,ArrowLeft,Navigation,ArrowRight,MoreHoriz,ToggleOff,WbTwilight, WbSunny, WbSunnyOutlined } from '@mui/icons-material'
+import { AddBox,ArrowLeft,Navigation,ArrowRight,MoreHoriz,ToggleOff,WbTwilight,  WbSunnyOutlined } from '@mui/icons-material'
 import buildings from "../assets/building.png"
 
 function Sidebar() {
@@ -18,7 +18,7 @@ function Sidebar() {
           <span className='text-sm' >Today 28 Sept</span>
           <span className='flex items-center text-sm'><WbTwilight/><span>19:32</span></span>
         </div>
-        <div className='px-6 flex items-center justify-between mt-6'>
+        <div className='px-6 z-50 flex items-center justify-between mt-6'>
           <span><ArrowLeft /></span>
           <span className='font-semibold text-[80px]'>27°</span>
           <span><ArrowRight/></span>
@@ -27,7 +27,7 @@ function Sidebar() {
          <div><WbSunnyOutlined/><span className='px-1'>Sunny</span></div>
         </div>
       </div>
-      <div className='absolute bottom-0' >
+      <div className='' >
         <img  height={100} src={buildings} alt='sun-rise' />
       </div>
     </div>
